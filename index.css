@@ -64,7 +64,7 @@ body {
 #second-part {
     display: flex;
     justify-content: space-around;
-    margin: 35px 55px 115px 55px;
+    margin: 35px 55px 50px 55px;
 }
 
 .pass-div {
@@ -84,6 +84,7 @@ body {
     margin-right: 50px;
     text-align: center;
     border-radius: 6px;
+    border: none;
 
 
 }
@@ -94,6 +95,76 @@ body {
     align-items: center;
     text-align: center;
     border-radius: 6px;
+    border: none;
 
 
+}
+
+#range-div {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 55px;
+    margin-bottom: 20px;
+
+}
+
+#range-value {
+    margin-left: 10px;
+    color: #10B981;
+    font-size: 15px;
+
+}
+
+#range {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 150px;
+    height: 10px;
+    border-radius: 30px;
+    background-color: #10B981;
+}
+
+#range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+
+}
+
+#pass-text {
+    margin-right: 20px;
+}
+
+#box-div {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 55px;
+}
+
+#text-box {
+    margin-right: 20px;
+}
+
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 13px;
+    height: 13px;
+    background-color: #2F3E53;
+    border-radius: 1px;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #10B981;
+}
+
+label {
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
 }
