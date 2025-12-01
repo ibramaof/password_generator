@@ -78,14 +78,14 @@ function copyPassTwo() {
     navigator.clipboard.writeText(passTwoEl.textContent)
 }
 
-document.querySelector(".copy-btn").addEventListener("click", function () {
-    nativeToast({
-        message: 'password copied',
-        position: 'south',
-        // Self destroy in 5 seconds
-        timeout: 2000,
-        type: 'success',
-        rounded: true,
-
+document.querySelectorAll(".copy-btn").forEach(btn => {
+    btn.addEventListener("click", function () {
+        nativeToast({
+            message: 'password copied',
+            position: 'south',
+            timeout: 2000,
+            type: 'success',
+            rounded: true,
+        })
     })
 })
