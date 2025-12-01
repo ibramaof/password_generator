@@ -68,7 +68,7 @@ body {
 }
 
 .pass-div {
-    width: 211px;
+    width: 200px;
     height: 40px;
     background-color: #273549;
     color: #55F991;
@@ -77,11 +77,13 @@ body {
 
 }
 
+
+
 #passOne {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 50px;
+    margin-right: 0;
     text-align: center;
     border-radius: 6px;
     border: none;
@@ -98,6 +100,17 @@ body {
     border: none;
 
 
+}
+
+.copy-btn {
+    color: #10B981;
+    background-color: #2F3E53;
+    border-radius: 5px;
+    border: none
+}
+
+.copy-btn:hover {
+    background-color: #273549;
 }
 
 #range-div {
